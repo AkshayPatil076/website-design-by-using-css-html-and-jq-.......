@@ -8,14 +8,20 @@ body{
     overflow: hidden;
 }
 nav{
-    background-color: black;
+    /* background-color: black; */
+    box-shadow: 0 0 150px 0 ;
+    /* background: inherit; */
+    backdrop-filter: blur(10px);
+    /* <!--margin: 100px; according to your need--> */
     width: 100%;
     height: 2.5cm;
     display: flex;
 }
 
 .lgog{
-    background-color: red;
+    /* background-color: rgb(11, 56, 95); */
+    
+    /* background-color: var); */
     width: 15%;
     height: 2.5cm;
     border-radius: 0px 50px 50px 0px ;
@@ -49,25 +55,31 @@ li{
 }
 .link{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px;
+    color: rgb(159, 208, 224);
     /* background-color: red; */
     height: 0.7cm;
     width:100px;
     text-align: center;
     border-radius: 20px;
-    border: solid black 5px;
-}
+    /* border: solid rgb(179, 179, 179) 5px; */
 
+    /* box-shadow: 0 0 5px 0 ;
+    /* <!--margin: 100px; according to your need--> */
+}
+/* .action{
+    border: solid rgb(159, 208, 224) 5px;
+    height: 0.7cm;
+    width:100px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(159, 208, 224);
+} */
 .link:hover{
     /* background-color: red; */
-    border: solid red 5px;
     height: 0.7cm;
     width:100px;
     text-align: center;
-    border-radius: 20px;
-    color: red;
-
+    color: rgb(27, 156, 199);
 }
 
 .link:active{
@@ -79,6 +91,7 @@ li{
     /* background-color: green; */
     width: 50%;
     display: flex;
+    
 }
 .butt1{
     margin: 0.4cm;
@@ -89,27 +102,35 @@ li{
     border-radius: 20px;
     border: 0px ;
     font-size: 0.5cm;
+
+    
 }
 .but1{
-    border: solid red;
+    /* border: solid red; */
     width: 5cm;
     /* text-align: left; */
-    background-color: black;
-    color: red;
+    /* background-color: rgb(236, 98, 98); */
+    color: rgb(172, 211, 246);
     cursor: pointer;
+
+    /* box-shadow: 0 0 5px 0 ; */
+    background: inherit;
+    backdrop-filter: blur(10px);
+    /* <!--margin: 100px; according to your need--> */
 }
-.but1:hover{
-    background-color: rgb(201, 0, 0);
-    color: rgb(255, 255, 255);
-    border-color: rgb(201, 0, 0);
-}
+
 .but2{
     width: 4cm;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(172, 211, 246);
     color: rgb(255, 255, 255);
     position: relative;
     right: 2cm;
     cursor: pointer;
+
+    box-shadow: 0 0 5px 0 ;
+    /* background: inherit; */
+    backdrop-filter: blur(10px);
+    /* <!--margin: 100px; according to your need--> */
 }
 .sinupin{
     position: relative;
@@ -122,6 +143,7 @@ li{
     bottom: 5cm;
     z-index: -1;
 }
+
 .he1{
     color: rgb(255, 255, 255);
     font-size: 2cm;
@@ -135,7 +157,7 @@ li{
 }
 
 .h1aninfo{
-    color: red;
+    color:  rgb(172, 211, 246);
     font-size: 1cm;
     width: 10cm;
     margin-left: 38cm;
@@ -143,4 +165,8 @@ li{
     bottom: 30cm;
     left: 50px;
     font-family: Cooper Black;
+    /* box-shadow: 0 0 5px 0 ; */
+    background: inherit;
+    backdrop-filter: blur(10px);
+    /* <!--margin: 100px; according to your need--> */
 }
