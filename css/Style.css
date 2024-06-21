@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+body{
+    background-color: rgb(15, 13, 13);
+    overflow: hidden;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 2.5cm;
+    display: flex;
+}
+
+.lgog{
+    background-color: red;
+    width: 15%;
+    height: 2.5cm;
+    border-radius: 0px 50px 50px 0px ;
+    
+}
+
+.logo{
+    padding: cm;
+    font-family: Arial black;
+    color: white;
+    font-size: 1cm;
+    position: relative;
+    left: 50px;
+    top: 15px;
+
+}
+
+
+.meenu{
+    height: 2.5cm;
+    padding-left: 5cm;
+}
+
+ul{
+    display: flex;
+}
+li{
+    display: flex;
+    font-family: Arial black;
+    padding: 25px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    /* background-color: red; */
+    height: 0.7cm;
+    width:100px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid black 5px;
+}
+
+.link:hover{
+    /* background-color: red; */
+    border: solid red 5px;
+    height: 0.7cm;
+    width:100px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+
+}
+
+.link:active{
+    background-color: red;
+    color: white;
+}
+
+.backlogin{
+    /* background-color: green; */
+    width: 50%;
+    display: flex;
+}
+.butt1{
+    margin: 0.4cm;
+    background-color: red;
+    /* width: 5cm;/ */
+    height: 1.5cm;
+    font-family: Arial black;
+    border-radius: 20px;
+    border: 0px ;
+    font-size: 0.5cm;
+}
+.but1{
+    border: solid red;
+    width: 5cm;
+    /* text-align: left; */
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+.but1:hover{
+    background-color: rgb(201, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(201, 0, 0);
+}
+.but2{
+    width: 4cm;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 2cm;
+    cursor: pointer;
+}
+.sinupin{
+    position: relative;
+    left: 9cm;
+    top: 5px;
+}
+.headerimage{
+    width: 100%;
+    position: relative;
+    bottom: 5cm;
+    z-index: -1;
+}
+.he1{
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    font-family: Cooper Black;
+    position: relative;
+    bottom: 15cm;
+    width: 20cm;
+    /* left: 0.2cm; */
+    /* display: none; */
+    /* Snap ITC */
+}
+
+.h1aninfo{
+    color: red;
+    font-size: 1cm;
+    width: 10cm;
+    margin-left: 38cm;
+    position: relative;
+    bottom: 30cm;
+    left: 50px;
+    font-family: Cooper Black;
+}
