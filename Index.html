@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="./css//Style.css">
 </head>
 <body>
-    <nav>
-        <div class="lgog"><h1 class="logo">Logo</h1></div>
+    <nav class="anh1">
+        <div class="lgog " ><h1 class="logo">Logo</h1></div>
         <div>
             <ul class="meenu">
-                <li><a href="" class="link"><i class="bi bi-house-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <li><a href="" class="link action"><i class="bi bi-house-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
                     <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
                     <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
                   </svg> Home   </a></li>
@@ -24,7 +24,7 @@
                 <li><a href="" class="link"> Service</a></li>
             </ul>
         </div>
-        <div class="backlogin">
+        <div class="backlogin ">
                 <div class="sinupin">
                     <button class="butt1 but1">Sin Up</button>
                 <button class="butt1 but2">Sin In</button>
@@ -32,14 +32,19 @@
         </div>
     </nav>
     <div>
-        <img src="https://www.shutterstock.com/image-illustration/lmaty-kazakhstan-february-10-2019-600nw-1366040501.jpg" alt="" class="headerimage">
+        <img src="https://c4.wallpaperflare.com/wallpaper/402/508/992/rolls-royce-wraith-rolls-royce-cars-4k-wallpaper-preview.jpg" alt="" class="headerimage">
         <div>
-            <h1 class="he1 an">Bayerische Motoren Werke AG</h1>
+            <h1 class="he1 an ">Bayerische Motoren Werke AG</h1>
         </div>
         <div>
-            <h4 class="h1aninfo">The company was founded in 1916 .</h4>
+            <h4 class="h1aninfo anh1 ">The company was founded in 1916 .</h4>
         </div>
     </div>
+    <style>
+        .anh1{
+            display: none;
+        }
+    </style>
 
     <script>
      
@@ -50,14 +55,9 @@
          $(".an").animate({
       left: '100px',
       opacity: '0.8',
-     
     });
 
-    // $(".h1aninfo").animate({
-    //     right: '100px',
-    //   opacity: '0.8',
-     
-    // });
+    $(".anh1").fadeIn(2000);
         });
     </script>
 </body>
